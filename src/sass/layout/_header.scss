@@ -1,0 +1,87 @@
+.position {
+  display: flex;
+  justify-content: end;
+  gap: 15px;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.section-header {
+  background-color: beige;
+}
+
+.container {
+  background-color: lightgray;
+}
+
+.logo {
+  align-items: center;
+  display: flex;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 15px;
+}
+
+.input {
+  background-color: transparent;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 0.5px solid black;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 20px;
+  padding-bottom: 4px;
+  color: white;
+  outline: none;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 25px;
+}
+
+.name {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.home {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.home-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  padding-top: 60px;
+  margin-bottom: 32px;
+}
+
+.movie-card {
+  flex-basis: calc((100% - 32px) / 3);
+  max-width: 394px;
+  margin-bottom: 32px;
+}
